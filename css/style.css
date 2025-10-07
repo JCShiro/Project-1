@@ -1,0 +1,31 @@
+body {
+    max-width: 900px;
+    margin: 2em auto;
+    background-color: rgb(125, 208, 210);
+    box-sizing: border-box;
+}
+
+.container > div {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: cadetblue;
+    border: 2px dashed black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+header {
+    background-color: lightgrey;
+    border: 3px solid darkslategray;
+    border-radius: 10%;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 50px;
+}
