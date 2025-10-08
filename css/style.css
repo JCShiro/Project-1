@@ -1,13 +1,21 @@
 body {
+    width: 90%;
     max-width: 900px;
     margin: 2em auto;
     background-color: rgb(125, 208, 210);
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
-.container > div {
+/* .container > div {
     border-radius: 10px;
     padding: 5px;
+    background-color: cadetblue;
+    border: 2px dashed black; 
+} */
+
+.container > article {
+    border-radius: 4px;
+    padding: 10px;
     background-color: cadetblue;
     border: 2px dashed black;
 }
@@ -19,13 +27,14 @@ body {
     grid-auto-rows: minmax(100px,auto);
 }
 
-header {
+/* header {
     background-color: lightgrey;
     border: 3px solid darkslategray;
     border-radius: 10%;
     text-align: center;
+    grid-column: 1/5;
 }
 
 header > h1 {
     font-size: 50px;
-}
+} */
