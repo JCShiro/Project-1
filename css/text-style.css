@@ -1,3 +1,19 @@
 header>h1 {
     font-size: 50px;
 }
+
+header {
+    text-align: center;
+}
+
+h1 {
+        font-family: "Playwrite DE SAS", cursive;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
