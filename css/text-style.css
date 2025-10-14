@@ -7,13 +7,17 @@ header {
 }
 
 h1 {
-        font-family: "Playwrite DE SAS", cursive;
-        font-optical-sizing: auto;
-        font-weight: auto;
-        font-style: normal;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
 }
 
 h2 {
     margin: 0;
     text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
 }
