@@ -2,22 +2,25 @@ header>h1 {
     font-size: 50px;
 }
 
-header {
-    text-align: center;
-}
 
-h1 {
+h1,
+h2 {
+    text-align: center;
     font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
+    font-optical-sizing: 50px;
     font-weight: auto;
     font-style: normal;
 }
 
 h2 {
     margin: 0;
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: auto;
-    font-style: normal;
+    font-size: 30px;
+}
+
+#bigbox {
+    justify-content: center;
+}
+
+#bigbox>img {
+    height: 25%;
 }
