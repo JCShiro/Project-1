@@ -18,19 +18,15 @@ h2 {
     font-size: 30px;
 }
 
-/* #bigbox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-
-.row1>div {
-    display: flex;
-    gap: 15px;
-}
-
 img {
     width: 50%;
     height: auto;
+}
+
+
+@media screen and (max-width: 569px) {
+    h1{
+        font-size: 45px;
+    }
+    
 }
