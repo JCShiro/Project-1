@@ -105,11 +105,10 @@ header {
     background-color: #a05d33;
 }
 
-/* article:hover{
-    scale: 150%;
-    transition: width 5s ease-in-out 3s;
-    Possible idea for a scale effect, WIP
-} */
+.normbox:hover {
+    scale: 125%;
+    transition: scale 3s ease-in-out;
+}
 
 /* This is for a tablet layout */
 
