@@ -62,15 +62,15 @@ header {
 }
 
 #troysaga {
-    background-color: #A00400;
+    background-color: #7b1c28;
 }
 
 #cyclopssaga {
-    background-color: crimson;
+    background-color: #790500;
 }
 
 #oceansaga {
-    background-color: darkcyan;
+    background-color: #062f46;
 }
 
 #circesaga {
@@ -78,24 +78,33 @@ header {
 }
 
 #underworldsaga {
-    background-color: darkgrey;
+    background-color: #9cbbb5;
 }
 
 #thundersaga {
-    background-color: goldenrod;
+    background-color: #eeb234;
 }
 
 #wisdomsaga {
-    background-color: darkblue;
+    background-color: #1a1d5e;
 }
 
 #vengencesaga {
-    background-color: cornflowerblue;
+    background-color: #032934;
 }
 
-#ithicasaga{
+#ithicasaga {
     background-color: #2a0d0b;
 }
+
+#winions {
+    background-color: #a78691;
+}
+
+#hermes {
+    background-color: #a05d33;
+}
+
 /* article:hover{
     scale: 150%;
     transition: width 5s ease-in-out 3s;
