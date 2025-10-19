@@ -106,8 +106,13 @@ header {
 }
 
 .normbox:hover {
-    scale: 125%;
-    transition: scale 3s ease-in-out;
+    scale: 105%;
+    transition: scale 0.3s ease-in-out;
+}
+
+#bigbox:hover {
+    scale: 105%;
+    transition: scale 0.3s ease-in-out; 
 }
 
 /* This is for a tablet layout */
