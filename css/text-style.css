@@ -1,20 +1,26 @@
+/* FONT SETTINGS */
+/* Sets all font color to white */
 body {
     color: white;
 }
-
+/* Main header settings */
 h1 {
+    /* Header text -> black */
     color: black;
+    /* position center */
     text-align: center;
     font-size: 50px;
+    /* Custom font */
     text-align: center;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: 50px;
     font-weight: auto;
     font-style: normal
 }
-
+/* box header settings */
 h2 {
     text-align: center;
+    /* Custom font */
     font-family: "Dancing Script", cursive;
     font-optical-sizing: 50px;
     font-weight: auto;
@@ -22,12 +28,12 @@ h2 {
     margin: 0;
     font-size: 30px;
 }
-
+/* Image sizing */
 img {
     width: 50%;
     height: auto;
 }
-
+/* shrinks the font size for phone view */
 @media screen and (max-width: 569px) {
     h1 {
         font-size: 45px;
