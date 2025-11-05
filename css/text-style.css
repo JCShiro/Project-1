@@ -1,42 +1,49 @@
 /* FONT SETTINGS */
 /* Sets all font color to white */
 body {
-    color: white;
+  color: white;
 }
 /* Main header settings */
 h1 {
-    /* Header text -> black */
-    color: black;
-    /* position center */
-    text-align: center;
-    font-size: 50px;
-    /* Custom font */
-    text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: 50px;
-    font-weight: auto;
-    font-style: normal
+  /* Header text -> black */
+  color: black;
+  /* position center */
+  text-align: center;
+  font-size: 50px;
+  /* Custom font */
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: 50px;
+  font-weight: auto;
+  font-style: normal;
 }
 /* box header settings */
 h2 {
-    text-align: center;
-    /* Custom font */
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: 50px;
-    font-weight: auto;
-    font-style: normal;
-    margin: 0;
-    font-size: 30px;
+  text-align: center;
+  /* Custom font */
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: 50px;
+  font-weight: auto;
+  font-style: normal;
+  margin: 0;
+  font-size: 30px;
 }
 /* Image sizing */
 img {
-    width: 50%;
-    height: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  border:#FFFDD0 solid 2px ;
+}
+p{
+    text-align: center;
+}
+#epicdescription{
+    font-size: 22px;
 }
 /* shrinks the font size for phone view */
-@media screen and (max-width: 569px) {
-    h1 {
-        font-size: 45px;
-    }
-
+@media screen and (max-width: 834px) {
+  h1 {
+    font-size: 45px;
+  }
 }

@@ -1,171 +1,173 @@
 /* BOX STYLE */
 
 body {
-    width: 90%;
-    max-width: auto;
-    margin: 2em auto;
-    background-color: #7DD0D2;
-    /* box-sizing: border-box; */
+  width: 90%;
+  max-width: auto;
+  margin: 2em auto;
+  background-color: #7dd0d2;
+  /* box-sizing: border-box; */
 }
 
-.container>article {
-    border-radius: 4px;
-    /* Adds rounded corners */
-    padding: 10px;
-    background-color: cadetblue;
-    border: 2px dashed black;
-    /* adds dashed border */
-
+.container > article {
+  border-radius: 4px;
+  /* Adds rounded corners */
+  padding: 10px;
+  background-color: cadetblue;
+  border: 2px dashed black;
+  /* adds dashed border */
 }
 
 .container {
-    display: grid;
-    /* Makes the layout a CSS grid */
-    grid-template-columns: repeat(4, 1fr);
-    /* Makes the grid 4 long, giving each section 1 fraction space */
-    gap: 15px;
-    /* Makes the gap between each box 15px */
-    grid-auto-rows: 2fr;
+  display: grid;
+  /* Makes the layout a CSS grid */
+  grid-template-columns: repeat(4, 1fr);
+  /* Makes the grid 4 long, giving each section 1 fraction space */
+  gap: 15px;
+  /* Makes the gap between each box 15px */
+  grid-auto-rows: 2fr;
 }
 
 header {
-    background-color: lightgrey;
-    border: 3px solid darkslategray;
-    /* Style choices */
-    border-radius: 20%;
-    /* Curves boorder */
-    grid-column: 1/5;
-    /* Fixes header across the top of the page */
-    height: 130px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    /* Fixes the header to the middle of the page */
+  background-color: lightgrey;
+  border: 3px solid darkslategray;
+  /* Style choices */
+  border-radius: 20%;
+  /* Curves boorder */
+  grid-column: 1/5;
+  /* Fixes header across the top of the page */
+  height: 130px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /* Fixes the header to the middle of the page */
 }
 
 #bigbox {
-    grid-column: 1/3;
+  grid-column: 1/3;
 }
 
 #hermes {
-    grid-column: 3/5;
+  grid-column: 3/5;
 }
 
-#bigbox>div {
-    /* flex required to organise images */
-    display: flex;
-    gap: 15px;
-
+#bigbox > div {
+  /* flex required to organise images */
+  display: flex;
+  gap: 15px;
 }
 
-.normbox>div {
-    /* flex required to organise images */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
+.normbox > div {
+  /* flex required to organise images */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
 }
 
 /* All single elements are for each boxes color */
 
 #troysaga {
-    background-color: #7b1c28;
+  background-color: #7b1c28;
 }
 
 #cyclopssaga {
-    background-color: #790500;
+  background-color: #790500;
 }
 
 #oceansaga {
-    background-color: #062f46;
+  background-color: #062f46;
 }
 
 #circesaga {
-    background-color: darkmagenta;
+  background-color: darkmagenta;
 }
 
 #underworldsaga {
-    background-color: #9cbbb5;
+  background-color: #9cbbb5;
 }
 
 #thundersaga {
-    background-color: #eeb234;
+  background-color: #eeb234;
 }
 
 #wisdomsaga {
-    background-color: #1a1d5e;
+  background-color: #1a1d5e;
 }
 
 #vengencesaga {
-    background-color: #032934;
+  background-color: #032934;
 }
 
 #ithicasaga {
-    background-color: #2a0d0b;
+  background-color: #2a0d0b;
 }
 
 #winions {
-    background-color: #a78691;
+  background-color: #a78691;
 }
 
 #hermes {
-    background-color: #a05d33;
+  background-color: #a05d33;
 }
 
 /* When hovering over each box they will elnarge by an extra 5% over 3 seconds */
 .normbox:hover {
-    /* scale when hovering */
-    scale: 105%;
-    /* what is effected, for how long and what style */
-    transition: scale 0.3s ease-in-out;
+  /* scale when hovering */
+  scale: 105%;
+  /* what is effected, for how long and what style */
+  transition: scale 0.3s ease-in-out;
 }
 
 /* Same as above */
 #bigbox:hover {
-    scale: 105%;
-    transition: scale 0.3s ease-in-out; 
+  scale: 105%;
+  transition: scale 0.3s ease-in-out;
+}
+
+header, .normbox, #bigbox{
+    filter: drop-shadow(#004242 1rem 1rem 5px);
 }
 
 /* This is for a tablet layout or a max width of 1280px */
 
-@media screen and (max-width: 1280px) {
-    /* Reduces the nuber of columns from 4 to 2 */
-    .container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    /* Re-positions hermes box */
-    #hermes {
-        grid-column: 1/3;
-    }
-    /* Re-sized the header */
-    header {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
+@media screen and (max-width: 1600px) {
+  /* Reduces the nuber of columns from 4 to 2 */
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Re-positions hermes box */
+  #hermes {
+    grid-column: 1/3;
+  }
+  /* Re-sized the header */
+  header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 /* Mobile layout or max width of 569px */
 
-@media screen and (max-width: 569px) {
-    /* re-sized the big box */
-    #bigbox {
-        grid-column: auto;
-    }
-    /* Re-organises the images in the big box */
-    #bigbox>div {
-        flex-direction: column;
-        align-items: center;
-    }
-    /* re-sized the hermes box */
-    #hermes {
-        grid-column: auto;
-    }
-    /* Sets the grid to only one row */
-    .container {
-        grid-template-columns: 1fr;
-    }
-    /* Re-sizes the header */
-    header {
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+@media screen and (max-width: 834px) {
+  /* re-sized the big box */
+  #bigbox {
+    grid-column: auto;
+  }
+  /* Re-organises the images in the big box */
+  #bigbox > div {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* re-sized the hermes box */
+  #hermes {
+    grid-column: auto;
+  }
+  /* Sets the grid to only one row */
+  .container {
+    grid-template-columns: 1fr;
+  }
+  /* Re-sizes the header */
+  header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
