@@ -38,9 +38,9 @@ img {
 p{
     text-align: center;
 }
-#epicdescription{
+/* #epicdescription{
     font-size: 22px;
-}
+} */
 /* shrinks the font size for phone view */
 @media screen and (max-width: 834px) {
   h1 {

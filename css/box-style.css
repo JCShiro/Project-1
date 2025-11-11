@@ -24,7 +24,7 @@ body {
   /* Makes the grid 4 long, giving each section 1 fraction space */
   gap: 15px;
   /* Makes the gap between each box 15px */
-  grid-auto-rows: 2fr;
+  grid-auto-rows: auto;
 }
 
 header {
@@ -129,7 +129,7 @@ header, .normbox, #bigbox{
 
 /* This is for a tablet layout or a max width of 1280px */
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1240px) {
   /* Reduces the nuber of columns from 4 to 2 */
   .container {
     grid-template-columns: repeat(2, 1fr);
